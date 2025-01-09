@@ -84,7 +84,6 @@ struct DishDetailsView: View {
 }
 
 #Preview {
-    let mockOrder = Order()
     Text("Background").sheet(isPresented: .constant(true)) {
         DishDetailsView(viewModel: DishDetailsViewModel(dish: mockMenuItems[0], order: Order()), onClose: {})
     }

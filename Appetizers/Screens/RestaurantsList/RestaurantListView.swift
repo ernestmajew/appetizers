@@ -37,7 +37,7 @@ struct RestaurantListView: View {
 }
 
 #Preview {
-    var viewModel = RestaurantListViewModel()
+    let viewModel = RestaurantListViewModel()
     NavigationStack {
         RestaurantListView(viewModel: viewModel)
     }
